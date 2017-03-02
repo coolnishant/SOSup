@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grad1"
+    tools:context="com.example.nish.sosup.SaveContactAgain2">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Contact Details"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="40sp"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<LinearLayout
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NA"
+        android:background="@color/cardview_light_background"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="8sp"
+        android:layout_marginRight="8sp"
+        android:id="@+id/tvnp1"
+        android:textColor="@drawable/grad1"
+        android:layout_marginTop="70dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NA"
+        android:layout_margin="8sp"
+        android:background="@color/cardview_light_background"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:id="@+id/tvnp2"
+        android:textColor="@drawable/grad1"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NA"
+        android:layout_margin="8sp"
+        android:background="@color/cardview_light_background"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:id="@+id/tvnp3"
+        android:textColor="@drawable/grad1"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NA"
+        android:layout_margin="8sp"
+        android:background="@color/cardview_light_background"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:id="@+id/tvnp4"
+        android:textColor="@drawable/grad1"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NA"
+        android:layout_margin="8sp"
+        android:background="@color/cardview_light_background"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:id="@+id/tvnp5"
+        android:textColor="@drawable/grad1"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true" />
+</LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
